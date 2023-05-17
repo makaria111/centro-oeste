@@ -1,0 +1,95 @@
+body{margin: 0;}
+
+    .figura{
+    width: 40%;
+    float: left;
+    background: hsl(203.75deg 87.27% 78.43%);
+    padding: 50px 100px;
+    box-sizing: border-box;
+    height: 100vh;
+    }
+
+
+
+.formulario{
+width: 60%;
+float: right;
+background: #29343e;
+padding: 40px;
+box-sizing: border-box;
+height: 100vh;
+}
+.ilustra{
+    text-align: center;
+    margin-top: 0;
+}
+.ilustra img{
+
+    width: 110%;
+height: 40vh;
+
+}
+.formulario h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 0;
+    
+}
+.formulario p{
+    color: #ddd;
+    font-size: 18px;
+    margin-top: 0;
+     
+}
+.menu-form{padding: 0;}
+.menu-form li{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: solid 2px #fff;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.menu-form li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.formulario form{
+   max-width: 300px;
+}
+.formulario input{
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.formulario .bt-login{
+    background: #fff;
+   width: auto;
+   color: hsl(203.75deg 87.27% 78.43%);
+   display: inline-block;
+   padding: 10px 15px;
+}
+
+.esqueceu{
+    text-decoration: none;
+    color: #fff;
+
+}
+.container-form{
+    max-width: 280px;
+    margin: 10% auto 0 auto;
+}
+
+.figura h1{
+    display: flex;
+    color: white;
+    font-size: 7vh;
+    
+}
+   /*Media Query */
+   @media (max-width: 742px){
+    .figura, .formulario{float:none; width: 100%; height: auto;}
+   }
+
